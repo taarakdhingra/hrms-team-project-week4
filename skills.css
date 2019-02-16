@@ -1,0 +1,97 @@
+/*STLING ACTIVE PAGE'S BUTTON*/
+
+.button-style
+{
+
+	font-weight: bold;
+	border-radius: 5px;
+	margin-left: 14px;
+
+
+
+}
+
+/*navigAION ELEMNETS MARGIN*/
+.navigation-elements{
+	margin-left: 10px;
+
+	font-weight: bold;
+	border-radius: 5px;
+	
+}
+
+.skill-heading
+{
+	font-size:20px;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+body{
+
+	background-color: #f4f4f4;
+}
+
+.foot{
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	background-color:#FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	color:   #dc3545;
+	border-top: 1px solid rgb(0,0,0,0.125);
+}
+/*DISPLAYING HAMBURGER AS RED*/
+.navbar-toggler-icon{
+
+	background-color: #dc3545;
+}
+
+.navbar{
+
+	background-color: #FFFFFF
+}
+.skill-addition{
+
+	width: 100%;
+}
+
+
+
+
+/*table border*/
+table td, table th {
+  border: 1px ;
+  padding: 15px;
+}
+.container{
+
+	max-width: 1080px;
+	background-color: #FFFFFF;
+}
+
+.pageno-bottom{
+
+	bottom: 100px;
+}
+.btn-danger
+{
+	background-color: #d26431;
+}
+.pageno-bottom{
+
+	margin-top: 10%;
+}
+/*to show buttons on nav bar without border in mobile view*/
+@media screen and (max-width: 768px) {
+	.navigation-elements
+	{
+		border: none;
+	}
+  
+}
+
+
