@@ -1,0 +1,108 @@
+/*STYLING FOR CURRENT PAGE BUTTON*/
+
+.button-style
+{
+
+	font-weight: bold;
+	border-radius: 5px;
+	margin-left: 14px;
+
+
+
+}
+
+/*navigAION ELEMNETS MARGIN*/
+.navigation-elements{
+	margin-left: 10px;
+
+	font-weight: bold;
+	border-radius: 5px;
+	
+}
+
+.btn-outline-danger:hover{
+	background-color:#d26431 
+}
+.btn-danger:hover{
+	background-color: #d26431;
+}
+.btn-danger
+{
+	background-color: #d26431;
+
+}
+.btn-outline-danger{
+	color:#006c96; 
+}
+
+
+
+body{
+	background-color: #f4f4f4;
+	
+	margin-bottom: 15%;
+	color: #006c96;
+
+
+
+}
+
+/*assigning usrname and pasword form styling*/
+.form-style{
+
+	margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 350px;
+    opacity: 0.9;
+}
+
+.my-navbar-right{
+
+	flex-direction: row-reverse;
+}
+/*footer styling*/
+.foot{
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	background-color:#FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	color:   #006c96;
+	border-top: 1px solid rgb(0,0,0,0.125);
+}
+
+/*TO DISPLAY HAMBURGER BUTTON AS RED*/
+.navbar-toggler-icon{
+
+	background-color: #FFFFFF;
+}
+
+.navbar{
+
+	background-color: #FFFFFF;
+	border-bottom: 1px solid rgb(0,0,0,0.125);
+
+}
+
+.container{
+
+	max-width: 1080px;
+	background-color: #FFFFFF;
+	/*padding-bottom: 60px;*/
+}
+
+
+
+/*SHOWING BUTTONS IN NAV WITHOUR BORDER IN SMALLER SCREENS*/
+@media screen and (max-width: 768px) {
+	.navigation-elements
+	{
+		border: none;
+	}
+  
+}
