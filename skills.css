@@ -135,5 +135,11 @@ table td, table th {
 
   
 }
+@media screen and (min-width: 576px){
+.navbtns-inline {
+  
+    width:600px;
+}
+}
 
 
